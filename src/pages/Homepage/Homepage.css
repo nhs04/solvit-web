@@ -1,0 +1,24 @@
+.spacer-why-choose {
+    background-color: #1f2d3d;
+    height: 4rem;
+    margin: 0;
+    padding: 0;
+}
+/* src/pages/Homepage/Homepage.css */
+.Homepage {
+    position: relative;
+}
+
+.particle-background {
+    position: relative;
+    overflow: hidden;
+}
+
+.particle-background .Particle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}

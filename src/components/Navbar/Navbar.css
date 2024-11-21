@@ -1,0 +1,65 @@
+.navbar-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.App-header {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    height: 65px;
+    margin-left: 2rem;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin: 0 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav a,
+.nav-right a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.active-link {
+    color: #3FD6C5;
+}

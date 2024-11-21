@@ -1,0 +1,43 @@
+.ready-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+}
+
+.ready-image {
+    width: 86%;
+    height: auto;
+}
+
+.text-container3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
+
+.text-container3 h1 {
+    color: #ffffff;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.generic-button {
+    background-color: #3FD6C5;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.generic-button:hover {
+    background-color: #28a385;
+}

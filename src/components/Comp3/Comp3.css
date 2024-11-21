@@ -1,0 +1,29 @@
+.about-comp3-container {
+    padding: 2rem 2rem;
+    text-align: center;
+    background-color: #DEECF8;
+}
+
+.about-mission-section {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.about-mission-section h2 {
+    font-size: 2rem;
+    color: #3FD6C5;
+    margin-bottom: 1rem;
+}
+
+.about-underline-blue2 {
+    width: 64px;
+    height: 4px;
+    background-color: #234360;
+    margin: -11px auto 1rem;
+}
+
+.about-mission-description {
+    font-size: 1.2rem;
+    color: #234360;
+    margin: 35px auto;
+}

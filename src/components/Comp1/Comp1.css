@@ -1,0 +1,36 @@
+.comp1-container {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    height: 100vh;
+    /* Full viewport height */
+}
+.background-imagee {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  clip-path: ellipse(80% 90% at 50% 0%);}
+
+.text-containeer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #234360;
+}
+
+.rev {
+    color: #3FD6C5;
+}
+

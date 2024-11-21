@@ -1,0 +1,17 @@
+.circle-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+.circle-image {
+    max-width: 70%;
+    max-height: 70%;
+}

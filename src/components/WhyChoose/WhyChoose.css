@@ -1,0 +1,81 @@
+.why-choose {
+    background-color: #1f2d3d;
+    color: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+    position: relative;
+    top: 1rem;
+}
+
+.why-choose h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #3FD6C5;
+    position: relative;
+    top: -1rem;
+}
+
+.why-choose h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0.5rem auto 1.5rem auto;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 2rem;
+    padding: 0 2rem;
+    /* Adds padding to the left and right */
+}
+
+.feature {
+    background-color: #2e3b4e;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 0 1px #2e3b4e;
+    /* Ensures no border effect */
+    flex: 1;
+    min-width: 250px;
+    /* Ensures proper width on smaller screens */
+    max-width: 300px;
+}
+
+.feature h3 {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.feature p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.feature-icon {
+    display: block;
+    margin: 1rem auto;
+    width: 100px;
+    height: 100px;
+}
+
+/* Ensure features stack on smaller screens */
+@media (max-width: 960px) {
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}

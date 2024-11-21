@@ -1,0 +1,68 @@
+.about-comp2-container {
+    padding: -24rem 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about-about-section {
+    margin-bottom: 2rem;
+}
+.about-about-section .abt {
+        font-family: 'Poppins';
+        font-weight: bold;
+        
+}
+.about-about-section .slvt {
+    font-family: 'Poppins';
+        font-size: 1.1rem;
+}
+
+.about-about-section h2 {
+    font-size: 2rem;
+    color: #3FD6C5;
+    margin-bottom: 1rem;
+}
+
+.about-underline-blue {
+    width: 100px;
+    height: 3px;
+    background-color: #234360;
+    margin: 0 auto 3rem;
+}
+
+.about-about-description {
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    color: #2c3e50;
+    margin: 0 auto;
+}
+
+.about-features-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: -8rem;
+    margin-bottom: 3rem;
+    margin-top: -2rem;
+}
+
+.about-feature {
+    flex: 1 1 45%;
+    max-width: 500px;
+    position: relative;
+}
+
+.about-underline-green {
+    width: 60px;
+    height: 3px;
+    background-color: #3FD6C5;
+    margin: 81px auto 6rem;
+    margin-left: 34.5rem;
+}
+
+.about-feature p {
+    font-size: 1.1rem;
+    color: #234360;
+    text-align: left;
+        font-family: 'Poppins';
+}

@@ -1,0 +1,57 @@
+.revolutionize {
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+}
+
+.revolutionize h2 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: #3FD6C5;
+    position: relative;
+}
+
+.revolutionize h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #3FD6C5;
+    margin: 0.5rem auto 1.5rem auto;
+}
+
+.revolutionize p {
+    margin-bottom: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.feature-image-container {
+    position: relative;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-image-background {
+    position: absolute;
+    top: 28.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: auto;
+    z-index: 0;
+   
+}
+
+.feature-image {
+    position: relative;
+    width: 80%;
+    height: auto;
+    z-index: 1;
+}
+
+.more-about-button {
+    margin-top: 2rem;
+}

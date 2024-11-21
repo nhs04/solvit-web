@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #ffffff;
+    position: relative;
+    color: #1f2937;
+}
+
+.footer-logo {
+    width: 120px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1rem;
+    font-size: 18px;
+}
+
+.footer-links a {
+    color: #1f2937;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-rights {
+    font-size: 18px;
+}

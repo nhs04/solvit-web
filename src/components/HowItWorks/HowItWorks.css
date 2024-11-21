@@ -1,0 +1,112 @@
+.how-it-works {
+    text-align: center;
+    background-color: #F7F8FC;
+    position: relative;
+    padding: 2rem 0;
+    /* Significantly reduced padding */
+    min-height: auto;
+    /* Removed minimum height to allow the content to dictate size */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    /* Removed margins */
+}
+
+.how-it-works .how {
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+.how-it-works .stp {
+    font-family: "Poppins";
+}
+
+.how-it-works-title {
+    color: #3FD6C5;
+    font-size: 2rem;
+    /* Slightly smaller font size */
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.how-it-works-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #1f2937;
+    margin: 0.5rem auto;
+}
+
+.how-it-works-description {
+    font-size: 1rem;
+    /* Reduced font size */
+    color: #6b7280;
+    margin-bottom: 2rem;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: 1rem;
+    /* Further reduced margin */
+    margin-bottom: 1rem;
+    /* Further reduced margin */
+}
+
+.step {
+    max-width: 250px;
+    /* Reduced max-width to make the section smaller */
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.step img {
+    width: 70px;
+    /* Reduced image size */
+    height: 70px;
+    margin-bottom: 0.5rem;
+}
+
+.step h3 {
+    font-size: 1.25rem;
+    /* Reduced font size */
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+}
+
+.step p {
+    font-size: 0.875rem;
+    /* Reduced font size */
+    color: #6b7280;
+    margin-bottom: 0;
+}
+
+.arrow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.arrow {
+    width: 90px;
+    /* Reduced arrow size */
+    height: auto;
+    position: relative;
+    z-index: 0;
+    margin: 0;
+}
+
+.blue-svg {
+    position: absolute;
+    top: -53px;
+    right: -19px;
+    width: 112px;
+    height: auto;
+}
